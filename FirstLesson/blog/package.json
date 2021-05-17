@@ -1,0 +1,28 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "website blog online",
+  "main": "index.js",
+  "scripts": {
+  
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truongthimyduyen27042001/LearningNodeJS.git"
+  },
+  "keywords": [
+    "blog",
+    "website",
+    "nodejs"
+  ],
+  "author": "truong my duyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/truongthimyduyen27042001/LearningNodeJS/issues"
+  },
+  "homepage": "https://github.com/truongthimyduyen27042001/LearningNodeJS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
