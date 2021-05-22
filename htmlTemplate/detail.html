@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai mau html css</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styledetail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- test -->
+</head>
+<body>
+    <div class="container-fluid web-inner" id="app">
+        <!-- Phan navbar -->
+          <nav class="navbar">
+            <div class="container-fluid navbar-inner">
+              <button class="navbar-toggler" v-bind:class="{navActive: isList}" type="button" v-on:click="turnList">
+                <i class="fas fa-list"></i>
+              </button>
+              <button class="navbar-toggler"  v-bind:class="{navActive: isGrid}"  type="button" v-on:click="turnGrid">
+                <i class="fas fa-th"></i>
+              </button>
+            </div>
+          </nav>
+          <!-- inner -->
+         <div class="container content" >
+             <!-- Phan list Layout -->
+                <h3 class="text-center">What You Need To Know About CSS Variables</h3>
+                <img src="https://tutorialzine.com/media/2015/12/creating-your-first-desktop-app-with-electron.png" alt="">
+                <p class="noidung">When web projects grow bigger, their CSS usually becomes astronomically large and often times messy. To help us deal with this, new CSS variables are soon to hit mainstream browsers, giving devs the ability to reuse and easily edit repeatedly occurring CSS properties.</p>
+             <!-- Phan gridlayout -->
+         </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

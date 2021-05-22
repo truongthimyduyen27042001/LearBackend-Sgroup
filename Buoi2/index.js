@@ -150,12 +150,12 @@ app.get('/articles/new', (req, res, next) => {
     return res.render('pages/newArticle.pug');
 })
 
-// Rest APIs
-// app.post('/articles', (req, res, next) => {
-//     return res.json({
-//         message: 'Hello world'
-//     })
-// })
+//Rest APIs
+app.post('/articles', (req, res, next) => {
+    return res.json({
+        message: 'Hello world'
+    })
+})
 
 app.listen(PORT, () => {
     console.log(`Server is listening on ${PORT}`)

@@ -1,0 +1,19 @@
+extends ../layout/main.pug
+
+block content
+    p Add new article
+    form(action="/articles", method="post") 
+        label Title 
+        br
+        input#title(type='text' name='title')
+        br
+        br
+        lbel Content 
+        br
+        input#content(type='text' name='content')
+        br
+        br
+        button Create
+
+block scripts
+    script(src="/js/article.js") 

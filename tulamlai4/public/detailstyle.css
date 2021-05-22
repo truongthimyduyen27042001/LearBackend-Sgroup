@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+}
+.web-inner{
+    padding-left:0px !important;
+    padding-right:0px !important;
+   
+}
+.navbar{
+    background-color: #5796b1;
+    padding:20px  30px;
+}
+.navbar-inner{
+    justify-content: flex-end !important;
+}
+.navbar-inner button{
+    margin-left:10px;
+    padding:8px 12px;
+    background-color: #4987a1;
+    color:#fff !important;
+}
+.navbar-inner button:focus{
+    box-shadow: none !important;
+}
+/* Phan content */
+.content{
+    padding-top:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.noidung{
+    padding-top:50px;
+}

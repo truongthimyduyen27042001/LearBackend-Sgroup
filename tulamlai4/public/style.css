@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Rubik', sans-serif;
+}
+.web-inner{
+    padding-left:0px !important;
+    padding-right:0px !important;
+   
+}
+.navbar{
+    background-color: #5796b1;
+    padding:20px  30px;
+}
+.navbar-inner{
+    justify-content: flex-end !important;
+}
+.listLayout{
+    padding-bottom:2em;
+}
+.navbar-inner button{
+    margin-left:10px;
+    padding:8px 12px;
+    background-color: #4987a1;
+    color:#fff !important;
+}
+.navbar-inner button:focus{
+    box-shadow: none !important;
+}
+.navActive{
+    background-color: #b7428c !important ;
+}
+/* Phan content */
+.content{
+    padding-top:50px;
+}
+
+.hinhanh{
+    overflow: hidden;
+}
+.hinhanh img{
+    width:100%;
+    height:250px;
+    object-fit: fill;
+}
+.title{
+    padding-left:20px;
+    color:#808b8f ;
+}
+.title a{
+    color:#808b8f !important;
+    text-decoration: none;
+    font-size:25px;
+}
+.content-small{
+    padding:0px 10px;
+}
+/* Phan footer */
+.footer p:hover{
+    color:var(--hover-color) !important; 
+  }
+  .pull-right a{
+    margin-left:1em;
+    color:#fff !important;
+    transition: 0.3s ease-in-out;
+  }
+  .pull-right a:hover{
+    color:var(--hover-color) !important; 
+  }
+  .content{
+    padding-top:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.noidung{
+    padding-top:50px;
+}
+h3{
+    padding-bottom:50px;
+}

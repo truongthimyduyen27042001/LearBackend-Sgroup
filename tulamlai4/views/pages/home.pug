@@ -1,0 +1,14 @@
+extends ../layout/main.pug
+
+block content
+    h3 HỌC CÔNG NGHỆ THÔNG TIN NGHĨA LÀ HỌC GÌ ?
+    .container-fluid.content
+        each article in articles 
+            .container.listLayout
+                .row.content-small
+                    a.col-12.col-sm-6.col-md-4.col-lg-3.hinhanh
+                        img(src=article.src alt='' href=`http://localhost:3000/${article.id}`)
+                    .col-12.col-sm-6.col-md-8.col-lg-9.title
+                        a(href=`http://localhost:3000/${article.id}`) #{article.title}
+        
+                
