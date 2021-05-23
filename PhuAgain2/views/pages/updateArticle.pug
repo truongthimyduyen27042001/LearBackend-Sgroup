@@ -1,0 +1,32 @@
+extends ../layout/main.pug
+
+block content
+    form(action=`/articles/${article.id}/update`, method="post")
+        .form-group
+            label.form-label Title
+            input#title.form-control(
+                type='text' 
+                name='title' 
+                aria-describedby='emailHelp'
+                value=article.title
+                read-only=true
+            )
+            #emailHelp.form-text We&apos;ll never share your email with anyone else.
+        .form-group
+            label Content
+            textarea#content.form-control(rows='3' name='content')
+                #{article.content}
+        br
+        
+        button.btn.btn-primary(type='submit') Update
+
+
+ 
+
+
+    //- form(method='POST')
+    //-     input(type='text' name='_method' value='put')
+    //-     button.btn.btn-primary(type='submit') Update
+
+block scripts
+    script(src='/js/article.js')
