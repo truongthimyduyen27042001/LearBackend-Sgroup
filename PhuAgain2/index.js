@@ -110,9 +110,7 @@ app.post('/articles/:id/update',async(req,res)=>{
     }).catch((error)=>{
         console.log(error)
     })
-  
-    console.log('thuc hien ham nay')
-   
+    console.log('thuc hien ham nay') 
 })
 
 

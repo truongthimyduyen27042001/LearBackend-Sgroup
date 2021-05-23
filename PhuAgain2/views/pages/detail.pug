@@ -3,3 +3,11 @@ extends ../layout/main.pug
 block content
     h3 #{article.title}
     p #{article.content}
+    //- button#goTo.btn.btn-primary(type='button') Primary
+    button.btn.btn-secondary(type='button')
+        a(href=`/articles/${article.slug}/update`) Update
+
+block scripts
+    script(src='/js/detail.js')
+
+    
